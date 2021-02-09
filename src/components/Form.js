@@ -30,10 +30,6 @@ console.log('form props', props)
 		setCurrentMessage(event.target.value);
 	}
 
-	const remove = () => {
-		// dispatch new acction to deelte message
-	}
-
 	// userStyle = () => {
 	// 	return (
 	// 		<div></div>
@@ -58,7 +54,6 @@ console.log('form props', props)
 								</span>
 								<p>{m.text}</p>
 							</span>
-								{/* <a onClick={()=>{remove}}>&#10005;</a> */}
 							</>
 						</div>
 					)

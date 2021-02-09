@@ -38,11 +38,12 @@ export const RoomComponent = ({ username, room, socket, messages }) => {
 			text: textMessage,
 		});
 	};
+
 	return (
 		<div className="logout">
 			<div className="logout_bar">
 				<span>
-					Hi {username} you are logged in {room}
+					Hi {username}! You are logged in {room}
 				</span>
 				<div>
 					<button
