@@ -27,10 +27,10 @@ export const Login = (props)=> {
             for (var i = 0; i < roomAreas.length; i++) {
                 roomAreas[i].click();
             }   
-        }, 100);
+        }, 10);
         setTimeout(() => {
             document.getElementById('nav_button').click();
-        }, 100);
+        }, 10);
     }
 
     return (
